@@ -3,7 +3,7 @@ import lxml.html as html
 import os
 import datetime
 
-tema = input('Que tema quereres descargar?: ')
+tema = input('Que tema quieres descargar?: ')
 INFOCAMPO_URL = f'https://www.infocampo.com.ar/tag/{tema}/'
 INFOCAMPO_LINKS_PATH = '//h1/a/@href'
 INFOCAMPO_TITLE_PATH = '//div[@class="bloque_superior"]/h1/text()'
